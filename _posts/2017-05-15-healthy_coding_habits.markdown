@@ -1,0 +1,12 @@
+---
+layout: post
+title:  **Healthy Coding Habits**
+date:   2017-05-15 14:19:17 +0000
+---
+
+
+Over the past few months breaking into code from the position of a non-tech nerd,  I've discovered a few things about what it takes to effectively learn code.  Hopefully, as I implement these habit more and more, they will prove to make me an effective and productive programmer.
+One of the most important and effective habits, that has been introduced in this program from the very beginning, is test driven development.   The more I work at solving labs the more I see how important it is to be able to effectively read spec tests and failure outputs.  I see how effective I could be were I more proficient using pry and replit, testing my code by running it and playing around with it.  This is an area I am working on and would encourage other newbie programmers to get serious about.
+Another healthy coding habit that was recently pointed out to me by a more advanced student, is that of reading other people's code.  After you solve a lab, go back and read through other people's solutions, not only will this open your eyes to the multiplicity of ways to solve problems, it will help reinforce what you are learning as you think through why you solved it your way and someone else solved it thier way.  Reading code by good programmers will make you a better programmer, just like reading novels by good writers will make you a better writer.
+Helping other people code is yet another way to improve your own coding skills.  When you go back and help a student solve a lab that you have already solved, you are forced to think about why you wrote the code you wrote and how to help them solve it using the style they want to implement.  Once again, you are reinforcing what you have been learning, and, bonus, you are helping someone else, albiet, in a blundering, stumbling manner because you are still learning, after all.
+There are many other healthy coding habits, such as diagramming or designing a flow chart for how you want your program to work.  Having another, more advanced programmer to mentor you and ask you hard questions about your code so that you can know that you "know" what you're doing.  Being able to proficiently use search engines to research solutions and information you might need for the programs you're trying to write.  I'm sure I'm only scratching the surface of effective coding practices here. What habits are you implementing as you advance through learning to code?
