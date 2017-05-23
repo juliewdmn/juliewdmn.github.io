@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "**Some Additional Things To Know About Site Publishing""
+title:  'Why Web Development'?****
 date:   2017-03-22 11:56:48 -0400
 ---
 
-## **
 Being new to web development, there is a lot for me to learn. As I've delved into site publishing two questions have arisen, first,  what does it cost to publish a website and how can it be done with elegance and thriftiness?  Another quesion, once you publish a website, what does it take to support and maintain it?
 To answer the first question of cost, the cost can range from virtually free to hundreds of thousands of dollars!  The cost can vary depending on what you want to  accomplish with your website and what kind of quality and control you want for it.  Lets consider what is needed to create your website. First, you won't get far without a computer ($250 to $3,000+) and modem, so add that to the tally.  Also, internet is important, and depending on how much bandwidth you need, you might need to pay for DSL, cable or fiber access ($60 + per month).  Next, you'll need the appropriate software, text editors, some of which are free (here's some of the thrifty part) and highly effective (contributing to the elegant part) and some of which can cost up to $200.  Also, you'll need image editors (with prices that can range from $0 to $300 +), media editors (also ranging from $0 to $300+) and publishing tools: FTP client (lots of reliable and free options).
 Next, you'll need to find a hosting provider.  Hosting providers charge you according to how much bandwidth your website consumes.  This is dependent on how much traffice your site gets at any given time and on how much server space your content fills (hint: free up some of this space by storing videos on dedicated services such as Youtube or Vimeo).  Generally, reliable, paid personal hosting costs around $10 to $15 per month. You could consider free hosting, though you need to consider some of the disadvantages with free hosting such as, having no control over the advertising providers may add to your content, and having less freedom and control over your site in general. If you opt for paid hosting, you will also need to purchase a domain name from a registrar, these are usually $5 to $15 per year.
