@@ -1,0 +1,66 @@
+---
+layout: post
+title:  **"Pry or Cry"**
+date:   2017-05-30 16:04:57 +0000
+---
+
+
+
+"I've used pry a little bit".  "I'm not really comfortable with pry yet, I don't use it much yet".  "I see the benefits of working with pry, but I'm not very good at using it".
+
+These are all things that I have said to various tech coaches when working though various labs.  I know pry is there, I know I need to use it, but . . . I'm not sure how to use it, its new, its different, and quite frankly I'm a little intimidated by, not only pry, but  almost everything involved in programming.  What is it about  software development that makes me feel so vulnerable and humbled.  Maybe its the fact that it's hard!  Maybe I'm nervous about the prospect that, as a developer, I am going to continually be in this vulnerable, humble state and this makes me feel even more vulnerable and humbled.  Though it may seem counterintuitive, this is all good and I'm sticking with it!  How will I grow as a person if I am always protected, comfortable and confident?  Well, I won't, plain and simple.
+
+Getting back to pry. It. Is. Amazing! Pry is not a tool, it is  the entire tool shed of my OCD neighbor who buys only the highest quality and keeps everything in immaculate order. So, here I am,  the hillbilly knocking on that neighbor's door asking to borrow a hammer, just a hammer, that should fix it, thanks.  However, I know that in order to be more effective and efficient,  I really just need to own that tool shed.  So . .  . I'm working toward "owning" pry.  I've taken a couple days now to read about it, to watch videos on it and to, very timidly, play around with it.
+
+Now, here are a few things I've learned about pry.  First of all, pry can replace IRB as an injectable REPL (REPL stands for read, eval, print, loop).  This means that you can inject a full REPL into any part of your code, giving you the ability to run specific parts of your program in order to see if things are working the way you would like.  One advantage  to this is that it eliminates the need to copy and paste, which can be a hassel when you have a lot of code you want to run. This is the main way that I have awkwardly (due to my own novice and not beacuse pry is awkward) interacted with pry, and it has been handy, but there is so much more that pry has to offer.
+
+Installing pry-doc gives you access to Ruby's core mehtods, which can nicely eliminate a lot of google searches when you are working on your code.  Pry will also allow you to cd into objects so you can introspect on them ( the nesting command will show you how deep you are in your code when you've changed directory multiple times  and allows you to quickly determine where you want to be in your program).  Pry keeps track of your buffer input history, allowing you to back track if need be.  Shell integration is provided in pry, this means that arbitrary shell commands can be executed inside the REPL (to do this in Pry, begin your line of input with '.' and it will be forwarded to the command shell.
+
+What else does Pry have to offer?  Editor integration, customization and configuration, exception handling, plugins, remote sessions, integration with Rails, to name a few.  The pry programmers are busy too.  I decided to follow pry on github and they blew up my inbox!  I'm very much looking forward to using pry as I get deeper into my work in Ruby.  I can see how important it is for effective, efficient programming and how, with out it, frustation and even tears may run free.
+
+*** A little example of some of the commands for pry:
+
+help   -- takes you to the Command List
+
+!        -- clears the input buffer,  breaks out of the read loop and allows normal input to resume, contents of buffer will be lost, however
+
+;        -- suppresses evaluation output
+
+```
+Example:
+[3] pry(main)> "hello" * 10
+=> "hellohellohellohellohellohellohellohellohellohello"
+[4] pry(main)> "hello" * 10;
+[5] pry(main)>
+```
+
+show-input   -- shows the contents of the input buffer
+
+hist --replay  -- replays Readline history
+
+hist -n          -- display history without line numbers
+
+edit             -- allows you to edit the contents of the input buffer with an editor
+
+amend-line   -- allows you to amend lines of input (syntax for replacing a line is amend-line N replacement code)
+
+show-input   -- displays contents of input buffer with line numbers and syntax highlighting
+
+play            -- allows you to replay code from methods and files, using play without switches requires a valid method name.  If you combine play with --open then the entire method is replayed except the final line, allowing for modification
+
+whereami    --  shows you where you are in your code
+
+[http://www.linuxjournaldigital.com/linuxjournal/201207?pg=35#pg35](http://)
+
+[http://railscasts.com/episodes/280-pry-with-rails?autoplay=true](http://)
+
+[https://vimeo.com/26391171](http://)
+
+[http://confreaks.tv/videos/rubyconf2013-repl-driven-development-with-pry](http://)
+
+[https://github.com/pry/pry/wiki](http://)
+
+[http://jonathan-jackson.net/give-it-a-pry](http://)
+
+[http://jonathan-jackson.net/2012/05/03/pry-session-102](http://)
+
