@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  **Healthy Coding Habits**
-date:   2017-05-15 14:19:17 +0000
+title:  "Healthy Coding Habits"
+date:   2017-05-15 10:19:18 -0400
 ---
 
 
