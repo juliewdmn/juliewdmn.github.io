@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "**Object Oriented Therapy**"
-date:   2017-04-27 23:23:49 +0000
+title:  "Object Oriented Therapy"
+date:   2017-04-27 19:23:50 -0400
 ---
 
 
